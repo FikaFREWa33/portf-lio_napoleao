@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --cor-principal: #5F0001;
+    --cor-secundária: #DB280D;
+    --cor-destaque: #2A0192;
+}
+
+body{ font-family:"Crimson Text", serif;
+    color: var(--cor-principal)
+}
+
+h1, h2, h3 {
+    color: var(--cor-secundária);
+    font-weight: 800;
+    }
+
+.lead, .btn-Link{
+    color: var(--cor-destaque);
+    font-weight: 800;
+}
+a, .btn-Link:hover{
+    color: var(--cor-principal);
+}
+
+ a:hover {
+    color: var(--cor-destaque);
+}
